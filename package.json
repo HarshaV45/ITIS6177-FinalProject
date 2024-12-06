@@ -8,8 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This is a RESTful API for text translation, transliteration, language detection, sentence breaking, and dictionary lookup. The API interacts with a third-party translation service, and it is built using Node.js, Express, and Axios.",
   "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
     "nodemon": "^3.1.7"
-  }
+  },
+  "devDependencies": {}
 }

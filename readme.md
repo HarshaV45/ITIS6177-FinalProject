@@ -45,7 +45,7 @@ This is a RESTful API for text translation, transliteration, language detection,
 
 4. Start the server:  
    ```bash
-   npm start
+   node app.js
    ```
 
 ---
