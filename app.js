@@ -185,7 +185,7 @@ app.post('/dictionarylookup', [
 
 // Handle invalid routes
 app.use((req, res) => {
-    res.status(404).json({ error: 'Invalid route' });
+    res.status(404).json({ error: 'Invalid route, Please use endpoints like (/languages), (/translate) ..' });
 });
 
 // Start server
